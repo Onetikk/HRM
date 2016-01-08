@@ -62,5 +62,19 @@
     <Property Name="ParentElementName" Value="[dbo].[Leave]" />
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="LeaveId" />
-  </Operation> 
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39613971-6e64-4289-83ce-0b108c2d7b29" ChangeDateTime="01/08/2016 05:22:13">
+    <Property Name="ElementName" Value="[dbo].[Account].[password]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Password" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1950fad1-c66b-4c43-9018-e776ac5068fa" ChangeDateTime="01/08/2016 05:22:20">
+    <Property Name="ElementName" Value="[dbo].[Account].[DateOf_Join]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Account]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DateOfJoin" />
+  </Operation>
 </Operations>
